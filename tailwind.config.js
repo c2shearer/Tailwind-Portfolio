@@ -1,11 +1,18 @@
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
-    container: {
-      center: true,
-      padding: '2rem'
-    },
     extend: {},
+    fontFamily: {
+      merri: ['Merriweather', 'serif']
+    },
+    variants: {
+      extend: {}
+    }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')({
+      strategy: 'class'
+    }),
+    require('@tailwindcss/typography'),
+  ]
 }

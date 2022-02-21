@@ -1,8 +1,26 @@
+/*Header*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap'); 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/*Import*/
+@layer base {
+    h1 {
+        @apply font-merri;
+    }
+}
+
 /*Custom Components*/
 .btn {
     @apply font-bold py-2 px-4 rounded;
+}
+
+.flex-column {
+    @apply flex flex-row flex-wrap justify-center;
+}
+
+.artist {
+    @apply max-w-fit flex p-6 m-4 bg-white rounded-lg shadow-xl;
 }
