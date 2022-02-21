@@ -7,45 +7,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
-    <script src="https://kit.fontawesome.com/55e9123779.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- Navigation Bar -->
-    <nav class="bg-teal-900">
-        <div class="flex text-center">
-            <img class="h-12 w-12 rounded-full" src="img/pixel.jpg" alt="Pixel Bath Image">
-            <h1 class="flex text-2xl">Cameron Shearer</h1>
-        </div>
-        <ul class="flex justify-end text-white px-10 py-3">
-            <li><a class="px-3" href="index.html"><i class="fa-solid fa-house-chimney"></i> Home</a></li>
+    <nav class="bg-slate-400 text-white h-16">
+        <h1 class="font-bold">cameronShearer</h1>
+        <ul class="flex flex-row justify-end py-3">
+            <li><a class="px-3" href="index.html"> Home</a></li>
             <li><a class="px-3" href="#">About</a></li>
-            <li><a class="px-3" href="#"><i class="fa-solid fa-phone"></i> Contact</a></li>
+            <li><a class="px-3" href="#">Contact</a></li>
         </ul>
     </nav>
-    <div class="container mx-auto max-w-0">
-
-    </div>
     <!-- Hero -->
-    <div class="p-32 text-center">
-        <h1 class="text-5xl font-bold text-green-900">Cameron Shearer</h1>
-        <p class="m-4">Welcome to my Site, I am a <span class="font-bold text-emerald-500">Jr. Developer!</span></p>
-        <div class="space-x-8 py-6">
-            <a class="font-bold bg-slate-400 hover:bg-slate-300 py-4 px-8 rounded text-slate-800 hover:text-slate-900 hover:shadow-xl transition duration-300"
-                href="about.html" target="_blank">About Me</a>
-            <a class="font-bold bg-yellow-400 hover:bg-yellow-300 py-4 px-8 rounded text-yellow-800 hover:text-yellow-900 hover:shadow-xl transition duration-300"
-                href="contact.html" target="_blank">Contact Me</a>
-        </div>
-    </div>
-    <div>
-        <h2 class="text-4xl">Buy</h2>
-        <div class="flex-column">
-            <div class="">
-
+    <div class="p-14 flex justify-center">
+        <img src="./img/cam.jpg" alt="Picture of me" class="rounded-t-lg shadow-2xl mx-10 h-64 w-64">
+        <div class="my-auto mx-10">
+            <h1 class="text-3xl">I am <span class="font-bold text-emerald-500">Cameron</span></h1>
+            <p>I am <span class="font-bold text-emerald-500">?</span> years old from the 🇬🇧 United Kingdom!</p>
+            <div class="space-x-8 py-6">
+                <a class="font-bold bg-slate-400 hover:bg-slate-300 py-4 px-8 rounded text-slate-800 hover:text-slate-900 hover:shadow-xl transition duration-300"
+                    href="about.html" target="_blank">About Me</a>
+                <a class="font-bold bg-yellow-400 hover:bg-yellow-300 py-4 px-8 rounded text-yellow-800 hover:text-yellow-900 hover:shadow-xl transition duration-300"
+                    href="contact.html" target="_blank">Contact Me</a>
             </div>
         </div>
     </div>
-    <h1 class="text-3xl text-gray-600 font-bold text-center">Artists</h1>
+    <!-- Tools -->
+    <h1 class="text-3xl font-bold text-emerald-500">Fullstack Knowledge</h1>
+    <div class="grid lg:grid-cols-3 gap-3">
+        <div class="bg-zinc-200 rounded-xl">
+            <img src="img/html.png" alt="HTML Logo" class="w-full h-32 sm:h-48 object-cover">
+            <h3>HyperText MarkupLanguage</h3>
+        </div>
+        <div class="">CSS</div>
+        <div class="">TypeScript</div>
+        <div class="">TailSwift</div>
+        <div class="">React.js</div>
+        <div class="">PHP</div>
+    </div>
+
+    <h1 class="text-3xl text-emerald-500 font-bold text-center">Artists</h1>
     <!-- Card Component -->
     <div class="flex-column">
         <div class="artist">
